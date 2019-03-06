@@ -1,0 +1,32 @@
+{
+	"create a new class": {
+		"prefix": "createClass",
+		"body": [
+                  "import PureComponent from '$$wigdets/PureComponent/index'",
+                  "",
+                  "import styles from './index.scss'",
+                  "",
+                  "export default class ${TM_FILENAME_BASE/([a-zA-Z])/${1:/upcase}/} extends PureComponent {",
+                  "     constructor(props) {",
+                  "           super(props, styles)",
+                  "     }",
+                  "",
+                  "     render() {",
+                  "           return (<div>",
+                  "                 $1",
+                  "           </div>)",
+                  "     }",
+                  "}"
+		],
+		"description": "创建一个新的class，并引入相关文件"
+      },
+      "console log": {
+            "prefix": "consoleLog",
+            "body": [
+                  "console.log('=======learnta log start=======')",
+                  "console.log('$1')",
+                  "console.log('=======learnta log end=======')"
+            ],
+            "description": "log分隔"
+      }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "learnta-pack",
+    "displayName": "learnta pack",
+    "description": "一系列论答开发体验的辅助功能",
+    "version": "0.0.1",
+    "publisher": "qianjin",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets.json"
+            }
+        ]
+    },
+    "extensionPack": [
+        "publisher.extensionName"
+    ]
+}

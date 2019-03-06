@@ -2,10 +2,14 @@
     "name": "learnta-pack",
     "displayName": "learnta pack",
     "description": "一系列论答开发体验的辅助功能",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/491688169/learnta-pack-vscode.git"
+    },
     "version": "0.0.1",
     "publisher": "qianjin",
     "engines": {
-        "vscode": "^1.31.0"
+        "vscode": ">=1.30.0"
     },
     "categories": [
         "Extension Packs"
